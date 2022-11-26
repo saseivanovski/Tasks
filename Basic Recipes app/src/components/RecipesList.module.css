@@ -1,0 +1,33 @@
+.table {
+  display: flex;
+  justify-content: center;
+}
+.recipesList,
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.298);
+  border-collapse: collapse;
+}
+.elipsisDiv {
+  display: grid;
+}
+.elipsis {
+  overflow: hidden;
+  max-width: 50ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ingredients {
+  display: flex;
+}
+.recipesList tr {
+  table-layout: fixed;
+}
+.table button {
+  font-size: medium;
+  cursor: pointer;
+  background-color: rgb(224, 132, 132);
+  border-style: none;
+}

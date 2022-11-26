@@ -1,0 +1,19 @@
+body {
+  background-color: rgba(203, 171, 159, 0.661);
+}
+.header {
+  text-align: center;
+}
+.buttonDiv {
+  display: flex;
+  width: 85px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.buttonDiv button {
+  background-color: transparent;
+  border-style: none;
+  height: 50px;
+  font-size: larger;
+  cursor: pointer;
+}
